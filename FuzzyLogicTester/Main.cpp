@@ -6,8 +6,6 @@
 int main()
 {
 
-	Test * t = new Test();
-
 	printf("ran\n");
 
 	system("pause");
