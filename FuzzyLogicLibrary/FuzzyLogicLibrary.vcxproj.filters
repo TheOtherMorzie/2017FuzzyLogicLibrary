@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\ExceptionToolKit">
+      <UniqueIdentifier>{8c94c6a4-c541-4d40-b108-6588820dec98}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Test.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="FLSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -30,11 +30,14 @@
     <ClInclude Include="FLLogicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FuzzyMathOperators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionToolKit\ExceptionC.h">
+      <Filter>Source Files\ExceptionToolKit</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FLSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

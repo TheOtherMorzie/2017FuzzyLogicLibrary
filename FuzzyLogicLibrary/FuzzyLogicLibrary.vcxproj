@@ -158,18 +158,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ExceptionToolKit\ExceptionC.h" />
     <ClInclude Include="FLLogicObject.h" />
     <ClInclude Include="FLObject.h" />
     <ClInclude Include="FLRule.h" />
     <ClInclude Include="FLSystem.h" />
-    <ClInclude Include="Test.h" />
+    <ClInclude Include="FuzzyMathOperators.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FLLogicObject.cpp" />
     <ClCompile Include="FLObject.cpp" />
     <ClCompile Include="FLRule.cpp" />
     <ClCompile Include="FLSystem.cpp" />
-    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

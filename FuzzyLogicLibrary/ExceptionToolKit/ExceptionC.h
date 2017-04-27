@@ -18,3 +18,7 @@ throw ExceptionC(e, __LINE__, __FILE__);
 if (!(e))\
 throw ExceptionC("Evaluation failed!", __LINE__, __FILE__);
 
+#define EVALUATECM(e, msg)\
+if (!(e))\
+throw ExceptionC(std::strcat("Evaluation failed! ", msg), __LINE__, __FILE__);
+
