@@ -159,15 +159,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ExceptionToolKit\ExceptionC.h" />
+    <ClInclude Include="FLInput.h" />
     <ClInclude Include="FLLogicObject.h" />
     <ClInclude Include="FLObject.h" />
+    <ClInclude Include="FLOutput.h" />
+    <ClInclude Include="FLRShoulder.h" />
     <ClInclude Include="FLRule.h" />
     <ClInclude Include="FLSystem.h" />
     <ClInclude Include="FuzzyMathOperators.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FLInput.cpp" />
     <ClCompile Include="FLLogicObject.cpp" />
     <ClCompile Include="FLObject.cpp" />
+    <ClCompile Include="FLOutput.cpp" />
+    <ClCompile Include="FLRShoulder.cpp" />
     <ClCompile Include="FLRule.cpp" />
     <ClCompile Include="FLSystem.cpp" />
   </ItemGroup>

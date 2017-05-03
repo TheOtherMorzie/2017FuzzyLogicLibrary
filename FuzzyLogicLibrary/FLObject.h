@@ -8,7 +8,7 @@ class FLObject
 {
 public:
 	FLObject();
-	~FLObject();
+	virtual ~FLObject();
 
 	virtual float getResult() = 0; // returns a result between 0 - 1
 

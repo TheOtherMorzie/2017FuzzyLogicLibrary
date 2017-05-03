@@ -3,7 +3,8 @@
 #include <vector>
 #include <memory>
 
-#include "FLObject.h"
+//#include "FLObject.h"
+class FLObject;
 
 class FLSystem
 {
