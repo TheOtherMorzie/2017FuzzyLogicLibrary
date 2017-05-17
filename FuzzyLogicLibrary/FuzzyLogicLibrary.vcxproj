@@ -163,7 +163,9 @@
     <ClInclude Include="FLLogicObject.h" />
     <ClInclude Include="FLObject.h" />
     <ClInclude Include="FLOutput.h" />
+    <ClInclude Include="FLRPolly.h" />
     <ClInclude Include="FLRShoulder.h" />
+    <ClInclude Include="FLRTriangle.h" />
     <ClInclude Include="FLRule.h" />
     <ClInclude Include="FLSystem.h" />
     <ClInclude Include="FuzzyMathOperators.h" />
@@ -173,7 +175,9 @@
     <ClCompile Include="FLLogicObject.cpp" />
     <ClCompile Include="FLObject.cpp" />
     <ClCompile Include="FLOutput.cpp" />
+    <ClCompile Include="FLRPolly.cpp" />
     <ClCompile Include="FLRShoulder.cpp" />
+    <ClCompile Include="FLRTriangle.cpp" />
     <ClCompile Include="FLRule.cpp" />
     <ClCompile Include="FLSystem.cpp" />
   </ItemGroup>

@@ -45,6 +45,12 @@
     <ClInclude Include="FLRShoulder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FLRTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FLRPolly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FLSystem.cpp">
@@ -66,6 +72,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FLRShoulder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FLRTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FLRPolly.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
